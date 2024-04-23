@@ -19,6 +19,11 @@ This tutorial will culminate in creating an ***expenses tracker app***.
 #### Installing Python for Mac
 
 - Open up Terminal
+- Run ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``` to install Homebrew
+- Close up Terminal
+
+- Open up Terminal again
 - Type ```brew install python```
 - Type ```python3 --version``` and you should get something like: ```Python 3.12.3```
 
+### Installing Python

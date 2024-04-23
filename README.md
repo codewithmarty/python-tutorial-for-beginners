@@ -26,4 +26,11 @@ This tutorial will culminate in creating an ***expenses tracker app***.
 - Type ```brew install python```
 - Type ```python3 --version``` and you should get something like: ```Python 3.12.3```
 
-### Installing Python
+### Installing VS Code
+
+VS Code is the development environment where we will write all of our code.
+
+It is extremely helpful!
+
+You can find the link [here](https://code.visualstudio.com/download)
+

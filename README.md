@@ -32,3 +32,13 @@ It is extremely helpful!
 
 You can find the link [here](https://code.visualstudio.com/download)
 
+### Installing Git
+
+Git is a version control system that we can use to save versions of our code.
+
+Git is used regularly in the field.
+
+Download and install Git by following the instructions [here](https://learn.microsoft.com/en-us/devops/develop/git/install-and-set-up-git)
+
+Once installed, try typing ```git --version``` in either PowerShell (Windows) or Terminal (Mac). You should get a version showing up.
+

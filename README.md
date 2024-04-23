@@ -14,9 +14,11 @@ This tutorial will culminate in creating an ***expenses tracker app***.
     - Microsoft Store should open up. 
 - Install Python 3.12
 - Close PowerShell and Re-open it
-- Type "python3 --version" and you should get something like: ```Python 3.12.3```
+- Type ```python3 --version``` and you should get something like: ```Python 3.12.3```
 
 #### Installing Python for Mac
 
 - Open up Terminal
 - Type ```brew install python```
+- Type ```python3 --version``` and you should get something like: ```Python 3.12.3```
+

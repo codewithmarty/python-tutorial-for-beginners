@@ -364,6 +364,8 @@ for person in persons:
     print(f"My name is {person["name"]} and my age is {person["age"]}. My favorite color is {person["favorite_color"]}. To answer if I am happy, I will say {person["is_happy"]}.")
 ```
 
+The ```person``` variable inside the loop now represents EACH dictionary of martin and selam.
+
 The output to this code should be:
 
 ```
@@ -371,3 +373,20 @@ My name is selam and my age is 18. My favorite color is pink. To answer if I am 
 My name is martin and my age is 59. My favorite color is green. To answer if I am happy, I will say False.
 ```
 
+### Exercise 3
+``` 
+Navigate to exercise3.py
+
+Part 1. 
+Create a dictionary and assign it to a variable called expense1. The keys for the expense should be name, amount and date.
+
+Part 2.
+Create another dictionary and assign it to a variable called expense2. Again, have a name, amount and date.
+
+Part 3.
+Create a list called expenses and put expense1 and expense2 inside of the expenses list.
+
+Part 4.
+Loop over your expenses list and print out each expense. Each expense should look something like:
+"My expense is buying milk. It cost me $20. I bought it on 08-24-2023"
+```

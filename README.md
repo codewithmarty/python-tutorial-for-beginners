@@ -349,3 +349,25 @@ for show in favorite_shows:
     print(f"My favorite show is {show}.")
 ```
 
+The output to this code should be:
+
+```
+My favorite show is Love is Blind.
+My favorite show is Boy Meets World.
+My favorite show is Seinfeld.
+```
+
+Coming back to the ```people``` variable, this is how I would loop over each person (Selam and Martin) and print their information:
+
+```python
+for person in persons:
+    print(f"My name is {person["name"]} and my age is {person["age"]}. My favorite color is {person["favorite_color"]}. To answer if I am happy, I will say {person["is_happy"]}.")
+```
+
+The output to this code should be:
+
+```
+My name is selam and my age is 18. My favorite color is pink. To answer if I am happy, I will say True.
+My name is martin and my age is 59. My favorite color is green. To answer if I am happy, I will say False.
+```
+

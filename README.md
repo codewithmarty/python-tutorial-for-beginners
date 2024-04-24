@@ -245,3 +245,29 @@ I can extract Michael's name, age, favorite color and whether or not he is happy
 - Getting Michael's favorite color: ```person["favorite_color"]```. This will output "blue".
 - Getting Michael's happy state: ```person["is_happy"]```. This will output True.
 
+I can make a print statement to access all of the information about Michael. Here's how my print statement might look:
+
+```print(f"My name is {person["name"]} and my age is {person["age"]}. My favorite color is {person["favorite_color"]}. To answer if I am happy, I will say {person["is_happy"]}")```
+
+### Exercise 2
+``` 
+Navigate to exercise2.py
+
+Part 1. 
+Create a list of your favorite singers and save it to a variable called favorite_singers.
+
+Part 2. 
+Create a list of information that describes you. Include:
+- hair color
+- favorite song
+- age
+- name
+
+Part 3.
+Convert the list from Part 2 to a dictionary.
+
+Part 4.
+Print a formatted string from the information you wrote in Part 3.
+
+Run your code.
+```

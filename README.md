@@ -117,7 +117,7 @@ Run the code ```print(age)``` and you should see 35 appear in your terminal.
 
 A neat task could be I want to increase my age by 5. I can do that by running ```age = age + 5```. I have taken the old ```age``` variable and reset it to itself + 5. 
 
-RunNow, I'm 40!
+Run ```print(age)``` again. Now, I'm 40!
 
 On the other hand, ```168.5``` is clearly not an integer. This is called a floating point number (or float for short) because the decimal value is "floating" around in memory.
 

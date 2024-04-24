@@ -461,3 +461,66 @@ Part 6.
 Loop over your expenses list again and print out each expense. Each expense should look something like:
 "My expense is buying milk. It cost me $20. I bought it on 08-24-2023" Your new expense should appear at the bottom.
 ```
+
+## Lesson 5: Asking for Input
+
+So far, our code has just been us (as developers) writing out what we want to see.
+
+- However, what if we want to make our app more interactive?
+
+- What if we want the user (not us) to tell us information about themselves? 
+
+- How can we prompt the user?
+
+We can use this thing called ```input```.
+
+Type ```input("What is your favorite color? ")```.
+
+What happens?
+
+You should see the question pop up on your terminal and the program is waiting for an answer before it closes. Once you enter the answer, the program will close.
+
+This is one way to make the experience interactive for the end user.
+
+You can also save whatever the end user types to variables and do something with that information.
+
+Example:
+```python
+
+name = input("What is your first name ")
+age = int(input("What is your age? "))
+favorite_color = input("What is your favorite color? ")
+
+print(f"Your name is {name} and your age is {age}. Your favorite color is {favorite_color}.")
+
+```
+
+Here, we've printed the information back to the end user.
+
+What's cool is you can now take that information and append it to the people's array.
+
+Example:
+```python
+
+name = input("What is your first name ")
+age = int(input("What is your age? "))
+favorite_color = input("What is your favorite color? ")
+
+person4 = {
+    "name": name,
+    "age": age,
+    "favorite_color": favorite_color,
+    "is_happy": True
+}
+
+people.append(person4)
+
+for person in persons:
+    print(f"My name is {person["name"]} and my age is {person["age"]}. My favorite color is {person["favorite_color"]}. To answer if I am happy, I will say {person["is_happy"]}.")
+
+```
+
+In fact, this is KIND OF how sign up works. You input your information into a nice form, your information gets registered to some database and you're all logged in.
+
+
+

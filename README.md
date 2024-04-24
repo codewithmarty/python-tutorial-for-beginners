@@ -165,6 +165,8 @@ Congrats! You just finished the first lesson.
 
 ### Exercise 1
 ``` 
+Navigate to exercise1.py
+
 Part 1. Create 4 variables that hold: 
 1. a string
 2. a number

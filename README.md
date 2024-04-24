@@ -274,7 +274,9 @@ Print a formatted string from the information you wrote in Part 3.
 Run your code.
 ```
 
-## Lesson 3: Looping and Lists of Dictionaries
+## Lesson 3: Lists of Dictionaries and For Looping
+
+### Lists of Dictionaries
 
 In the last lesson, we described lists and dictionaries as two separate things. However, we can combine them.
 
@@ -316,3 +318,34 @@ However, they can also be combined into a single list:
     ]
 
 ```
+
+The above variable ```people``` is KIND OF how a ***database*** looks like when you retrieve the data.
+
+Here's a question: If I accessed Michael's information using notation like ```person["name"]```, how would I access Martin's name?
+
+Would I just do ```people["name"]```? That can't be right because people represents two people so what about Selam's name?
+
+We will investigate this in the next section.
+
+### For Looping
+
+I can access elements in a list very easily using something called a ```for``` loop.
+
+Create a variable called ```favorite_shows = ["Love is Blind", "Boy Meets World", "Seinfeld"]```
+
+Try writing the following code below your favorite shows:
+
+```python
+for show in favorite_shows:
+    print(show)
+```
+
+What happens? The ```show``` variable becomes EACH of your favorite shows in your ```favorite_shows``` list. This is called a for loop. It loops **for** as many shows as you have in your list. It won't go more, it won't go less.
+
+I can get even fancier with my code. I can replace it with a formatted string:
+
+```python
+for show in favorite_shows:
+    print(f"My favorite show is {show}.")
+```
+

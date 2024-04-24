@@ -101,10 +101,10 @@ For example, ```"shoes"``` is considered a string in Python. So is ```"32"```. E
 I can save a string to a variable so that my strings can be used later in my program.
 
 Example:
-- Type ```favourite_color = "blue"``` in the follow_along file.
-    - This saves ```"blue"``` to a variable called ```favourite_color```. This means whenever you call ```favourite_color``` in your code, the value is ```"blue"```.
+- Type ```favorite_color = "blue"``` in the follow_along file.
+    - This saves ```"blue"``` to a variable called ```favorite_color```. This means whenever you call ```favorite_color``` in your code, the value is ```"blue"```.
     - Try calling it using a ```print``` statement:
-        - Type the code ```print(favourite_color)```.
+        - Type the code ```print(favorite_color)```.
         - Hit the "play button" in VS Code and you should see ```"blue"``` in your terminal.
 
 ### Numbers
@@ -144,7 +144,7 @@ I know my age is 40, so is 40 > 51 a true statement? No! It's false. When you ru
 The following should be a list of all of our variables so far.
 
 ```python 
-favourite_color = "blue"
+favorite_color = "blue"
 age = 35 
 age = age + 5
 height = 168.5
@@ -153,11 +153,11 @@ is_happy = True
 
 Now, type the following code:
 
-```print(f"My favourite color is {color}, my age is {age} and my answer to whether or not I am happy is {is_happy}")```
+```print(f"My favorite color is {color}, my age is {age} and my answer to whether or not I am happy is {is_happy}")```
 
 Run it using the play button. What do you see appear in the terminal?
 
-You should see ```"My favourite color is blue, my age is 40 and my answer to whether or not I am happy is True"```.
+You should see ```"My favorite color is blue, my age is 40 and my answer to whether or not I am happy is True"```.
 
 When you use ```f""``` you are using something called a ***formatted string***. You can embed variable names inside the string using ```{}``` and you'll get a beautiful string in the end. 
 
@@ -193,4 +193,54 @@ In this lesson, we talk about more complex data structures, namely:
 - dictionaries
 
 Lists and dictionaries can be considered "containers" because they are basically boxes that hold data.
+
+### Lists
+
+A list is square brackets with a bunch of stuff inside.
+
+Example:
+- ```favorite_colors = ["blue", "pink", "green"]``` is a list of all of my favorite colors. Notice how we also have commas that separate the colors.
+- ```favorite_foods = ["pizza", "sandwich"]``` is a list of all of my favorite foods.
+
+So far, the examples above are lists of strings, but I can have lists of numbers as well.
+
+Example:
+- ```ages = [34, 32, 67, 60, 67]``` is a list of ages for people in my family.
+
+I can also mix and match the primitive data types. For example:
+- ```michael = [21, "blue", True]``` is a list that describes Michael.
+
+### Dictionaries
+
+There is one small problem with lists.
+
+Let's look at the example: ```michael = [21, "blue", True]```
+
+If you were to come back to your code in a week, I bet you wouldn't be able to remember what information this ```michael``` list actually held.
+
+The first element, ```21``` could mean how many years Michael has been married or ```"blue"``` could mean his friend's favorite color. 
+
+Is there a better way to describe Michael in code?
+
+What if we wrote:
+
+```python person = {
+    "name": "michael",
+    "age": 21,
+    "favorite_color": "blue",
+    "is_happy": True
+}
+```
+Would you be able to understand what the variable ```person``` was actually holding?
+
+```person``` is called a dictionary because it has key-value pairs and defines all of the characteristics that make Michael, Michael.
+
+#### Accessing Information From Dictionaries
+
+I can extract Michael's name, age, favorite color and whether or not he is happy very quickly.
+
+Getting Michael's name: ```person["name"]```. This will output "michael".
+Getting Michael's age: ```person["age"]```. This will output 21.
+Getting Michael's favorite color: ```person["favorite_color"]```. This will output "blue".
+Getting Michael's happy state: ```person["is_happy"]```. This will output True.
 

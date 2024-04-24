@@ -163,17 +163,18 @@ When you use ```f""``` you are using something called a ***formatted string***. 
 
 Congrats! You just finished the first lesson.
 
-### Exercise 1
+``` ### Exercise 1
 
-A. Create 4 variables that hold: 
+Part 1. Create 4 variables that hold: 
 1. a string
 2. a number
 3. a float
 4. a boolean
 
-B. Print a sentence using these four variables and a formatted string. 
+Part 2. Print a sentence using these four variables and a formatted string. 
 
 Run your code.
+```
 
 ## Lesson 2: Built-in Data Types
 

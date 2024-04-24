@@ -522,5 +522,22 @@ for person in persons:
 
 In fact, this is KIND OF how sign up works. You input your information into a nice form, your information gets registered to some database and you're all logged in.
 
+### Exercise 3 Continued Again
 
+``` 
+Head back to exercise3.py
+
+Part 7. 
+Write three inputs prompting the user to give you the name of an expense, the amount it cost and the date (as a string).
+
+Part 8.
+Save the three values from Part 7 to a dictionary called expense4.
+
+Part 9.
+Append expense4 to the expenses list.
+
+Part 10.
+Loop over your expenses list again and print out each expense. Each expense should look something like:
+"My expense is buying milk. It cost me $20. I bought it on 08-24-2023". Run the code. Your new expense should appear at the bottom.
+```
 

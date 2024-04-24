@@ -163,8 +163,8 @@ When you use ```f""``` you are using something called a ***formatted string***. 
 
 Congrats! You just finished the first lesson.
 
-``` ### Exercise 1
-
+### Exercise 1
+``` 
 Part 1. Create 4 variables that hold: 
 1. a string
 2. a number

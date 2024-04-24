@@ -247,7 +247,7 @@ I can extract Michael's name, age, favorite color and whether or not he is happy
 
 I can make a print statement to access all of the information about Michael. Here's how my print statement might look:
 
-```print(f"My name is {person["name"]} and my age is {person["age"]}. My favorite color is {person["favorite_color"]}. To answer if I am happy, I will say {person["is_happy"]}")```
+```print(f"My name is {person["name"]} and my age is {person["age"]}. My favorite color is {person["favorite_color"]}. To answer if I am happy, I will say {person["is_happy"]}.")```
 
 ### Exercise 2
 ``` 

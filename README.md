@@ -249,6 +249,8 @@ I can make a print statement to access all of the information about Michael. Her
 
 ```print(f"My name is {person["name"]} and my age is {person["age"]}. My favorite color is {person["favorite_color"]}. To answer if I am happy, I will say {person["is_happy"]}.")```
 
+The output should read: ```My name is michael and my age is 21. My favorite color is blue. To answer if I am happy, I will say True```.
+
 ### Exercise 2
 ``` 
 Navigate to exercise2.py

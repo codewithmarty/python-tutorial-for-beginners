@@ -42,3 +42,152 @@ Download and install Git by following the instructions [here](https://learn.micr
 
 Once installed, try typing ```git --version``` in either PowerShell (Windows) or Terminal (Mac). You should get a version showing up.
 
+### Sign up for a GitHub
+
+GitHub is essentially a platform that carries all of your code with the versions that you've written, taken from your local machine and stored in the cloud. It's a great platform for teams to work together.
+
+You can sign up for a GitHub account [here](https://github.com/)
+
+### Link GitHub to Git
+
+In PowerShell (Windows) or Terminal (Mac), run the following commands:
+
+- ```git config --global user.email "your email"```
+- ```git config --global user.name "your name"```
+
+Replace "your email" with the email you used to sign up for GitHub and replace "your name" with your name.
+
+Run through the sign-in process and once complete, your GitHub should be linked to Git.
+
+### Clone down the first repository
+
+I have set up some files for you to begin your Python journey. In order to retrieve these files from my Github account, we need to use the ```clone``` command. 
+
+- Open up PowerShell (Windows) or Terminal (Mac) and navigate to the Desktop.
+    -  Example: When I first open up PowerShell, I find myself in ```C:\Users\marti>```. To get to my Desktop, I just type ```cd Desktop``` and hit Enter.
+- While in the Desktop, type the command ```git clone https://github.com/codewithmarty/python-codealong.git```
+- When the command is completed, type ```ls``` and you should see a folder called "python-tutorial-with-marty" appear in your Desktop.
+- Open up VS Code, click on Open Folder and open this folder that you've now added to your Desktop.
+- Click on the file called "follow_along.py" to follow along in these lessons.
+
+***The Setup is now complete***
+
+## Lesson 1: Primitive Data Types
+
+What is a data type?
+
+It is exactly what you think it is...a type of data that Python understands.
+
+Python has a number of data types and we cannot cover ALL of them in this tutorial.
+
+However, we will focus on the following ones:
+
+- Strings
+- Numbers (Integers / Floats)
+- Booleans
+- Lists
+- Dictionaries
+
+Strings, Numbers and Booleans are ***primitive*** data types. This is another fancy word for simple. 
+
+Lists and Dictionaries are NOT ***primitive***. 
+
+### Strings 
+
+A string is basically text that is surrounded by quotes.
+
+For example, ```"shoes"``` is considered a string in Python. So is ```"32"```. Even though 32 is a number, because it is surrounded in quotes, it is treated like a string (or text).
+
+I can save a string to a variable so that my strings can be used later in my program.
+
+Example:
+- Type ```favourite_color = "blue"``` in the follow_along file.
+    - This saves ```"blue"``` to a variable called ```favourite_color```. This means whenever you call ```favourite_color``` in your code, the value is ```"blue"```.
+    - Try calling it using a ```print``` statement:
+        - Type the code ```print(favourite_color)```.
+        - Hit the "play button" in VS Code and you should see ```"blue"``` in your terminal.
+
+### Numbers
+
+Numbers can be described as integers or floats. An integer is a whole number, while a float (or floating point) is a fancy term for a decimal.
+
+For example, ```35``` is an integer in Python and I can save it to a variable. Let's say my age is 35. I can then say ```age = 35``` and if I want to save my age and use it later in the program, I can call it by the variable name, ```age```. 
+
+Run the code ```print(age)``` and you should see 35 appear in your terminal.
+
+A neat task could be I want to increase my age by 5. I can do that by running ```age = age + 5```. I have taken the old ```age``` variable and reset it to itself + 5. 
+
+RunNow, I'm 40!
+
+On the other hand, ```168.5``` is clearly not an integer. This is called a floating point number (or float for short) because the decimal value is "floating" around in memory.
+
+Type ```height = 168.5``` in the file. Now you've saved my height to a variable!
+
+### Booleans
+
+Booleans are data types that are true or false statements.
+
+For example, ```True``` is true and ```False``` is false because they just are!
+
+Type ```is_happy = True``` in the file. You've now created a variable called ```is_happy``` that is storing a true value. A coder can interpret that to mean I am indeed happy! However, if I said ```is_happy = False```, this means I am not happy.
+
+Keep ```is_happy = True``` in your code and also type ```print(is_happy)``` one line below it. 
+
+Run the code by hitting the play button. You should see ```True``` appear in the terminal.
+
+You can also use Booleans with numbers. For example, we have a variable called ```age``` that is set to 40. If I wrote: ```print(age > 51)``` what would you expect the output to be? Would it be a true statement or a false statement?
+
+I know my age is 40, so is 40 > 51 a true statement? No! It's false. When you run the code ```print(age > 51)``` you should expect to see a false statement.
+
+#### Our variables so far:
+
+The following should be a list of all of our variables so far.
+
+```python 
+favourite_color = "blue"
+age = 35 
+age = age + 5
+height = 168.5
+is_happy = True
+```
+
+Now, type the following code:
+
+```print(f"My favourite color is {color}, my age is {age} and my answer to whether or not I am happy is {is_happy}")```
+
+Run it using the play button. What do you see appear in the terminal?
+
+You should see ```"My favourite color is blue, my age is 40 and my answer to whether or not I am happy is True"```.
+
+When you use ```f""``` you are using something called a ***formatted string***. You can embed variable names inside the string using ```{}``` and you'll get a beautiful string in the end. 
+
+Congrats! You just finished the first lesson.
+
+### Exercise 1
+
+A. Create 4 variables that hold: 
+1. a string
+2. a number
+3. a float
+4. a boolean
+
+B. Print a sentence using these four variables and a formatted string. 
+
+Run your code.
+
+## Lesson 2: Built-in Data Types
+
+In lesson 1, we talked about primitive or basic data types.
+
+We covered:
+- strings
+- integers
+- floats
+- booleans
+
+In this lesson, we talk about more complex data structures, namely:
+- lists
+- dictionaries
+
+Lists and dictionaries can be considered "containers" because they are basically boxes that hold data.
+

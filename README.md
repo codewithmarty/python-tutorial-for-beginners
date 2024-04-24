@@ -273,3 +273,46 @@ Print a formatted string from the information you wrote in Part 3.
 
 Run your code.
 ```
+
+## Lesson 3: Looping and Lists of Dictionaries
+
+In the last lesson, we described lists and dictionaries as two separate things. However, we can combine them.
+
+Let's say we have two persons, ```person1``` and ```person2```. These two variables can be represented as dictionaries:
+
+```python 
+person1 = {
+    "name": "selam",
+    "age": 18,
+    "favorite_color": "pink",
+    "is_happy": True
+}
+ 
+person2 = {
+    "name": "martin",
+    "age": 59,
+    "favorite_color": "green",
+    "is_happy": False
+}
+```
+
+However, they can also be combined into a single list:
+
+```python
+
+    people = [
+        {
+            "name": "selam",
+            "age": 18,
+            "favorite_color": "pink",
+            "is_happy": True
+        },
+        {
+            "name": "martin",
+            "age": 59,
+            "favorite_color": "green",
+            "is_happy": False
+        },
+    ]
+
+```

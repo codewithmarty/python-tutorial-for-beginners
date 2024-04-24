@@ -390,3 +390,74 @@ Part 4.
 Loop over your expenses list and print out each expense. Each expense should look something like:
 "My expense is buying milk. It cost me $20. I bought it on 08-24-2023"
 ```
+
+## Lesson 4: Adding Elements to Lists
+
+Guess what. Lists can grow in length. They can also shrink. Let's just focus on growing them in this lesson.
+
+How do you grow lists? 
+
+Let's go back to our people list:
+
+```python
+
+    people = [
+        {
+            "name": "selam",
+            "age": 18,
+            "favorite_color": "pink",
+            "is_happy": True
+        },
+        {
+            "name": "martin",
+            "age": 59,
+            "favorite_color": "green",
+            "is_happy": False
+        },
+    ]
+
+```
+
+Say I want to add another person that has the following information:
+
+```python
+    person3 = {
+        "name": "dylan",
+        "age": 24,
+        "favorite_color": "magenta",
+        "is_happy": True
+    }
+```
+
+I can add Dylan to the people list by just using the following code:
+
+```people.append(person3)```
+
+I have now appended Dylan and his information to the ```people``` list.
+
+Now, if I run the following for loop:
+
+```python
+for person in persons:
+    print(f"My name is {person["name"]} and my age is {person["age"]}. My favorite color is {person["favorite_color"]}. To answer if I am happy, I will say {person["is_happy"]}.")
+```
+
+The output to this code should be:
+
+```
+My name is selam and my age is 18. My favorite color is pink. To answer if I am happy, I will say True.
+My name is martin and my age is 59. My favorite color is green. To answer if I am happy, I will say False.
+My name is dylan and my age is 24. My favorite color is magenta. To answer if I am happy, I will say True.
+```
+
+### Exercise 3 Continued
+``` 
+Head back to exercise3.py
+
+Part 5. 
+Append a new expense called expense3 to your expenses list.
+
+Part 6.
+Loop over your expenses list again and print out each expense. Each expense should look something like:
+"My expense is buying milk. It cost me $20. I bought it on 08-24-2023" Your new expense should appear at the bottom.
+```

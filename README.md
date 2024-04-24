@@ -239,8 +239,8 @@ Would you be able to understand what the variable ```person``` was actually hold
 
 I can extract Michael's name, age, favorite color and whether or not he is happy very quickly.
 
-Getting Michael's name: ```person["name"]```. This will output "michael".
-Getting Michael's age: ```person["age"]```. This will output 21.
-Getting Michael's favorite color: ```person["favorite_color"]```. This will output "blue".
-Getting Michael's happy state: ```person["is_happy"]```. This will output True.
+- Getting Michael's name: ```person["name"]```. This will output "michael".
+- Getting Michael's age: ```person["age"]```. This will output 21.
+- Getting Michael's favorite color: ```person["favorite_color"]```. This will output "blue".
+- Getting Michael's happy state: ```person["is_happy"]```. This will output True.
 

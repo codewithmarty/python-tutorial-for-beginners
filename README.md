@@ -541,3 +541,59 @@ Loop over your expenses list again and print out each expense. Each expense shou
 "My expense is buying milk. It cost me $20. I bought it on 08-24-2023". Run the code. Your new expense should appear at the bottom.
 ```
 
+## Lesson 6: Never Stop Asking - While Loops
+
+Notice how the program finished after the inputs were executed? 
+
+The program stopped asking the user to keep entering information. This is not a good thing if you want to build a hold todo-list app or an expenses tracker. **You want the program to keep prompting the user**.
+
+How do we achieve this? We use something called a ```while``` loop.
+
+**While something is true, keep going.** This is so different from a for loop which only runs for as many people are in the people's list. While can potentially run forever.
+
+Here is an example of a ```while``` loop
+
+```python
+while True:
+    my_name = input("What is your name? (or quit) ")
+    if my_name == "quit":
+        break
+```
+
+The above code will ask what your name is until you say "quit". This "quit" is case-sensitive, so you cannot type "Quit". It won't actually quit.
+
+How can I create a classroom directory app where it keeps asking the user for the name, age and favorite color?
+
+```python
+people = []
+while True:
+    name = input("What is your first name (or quit)")
+    if name == "quit":
+        break
+    age = int(input("What is your age? "))
+    favorite_color = input("What is your favorite color? ")
+    person = {
+        "name": name,
+        "age": age,
+        "favorite_color": favorite_color,
+        "is_happy": True
+    }
+    people.append(person)
+    for person in persons:
+        print(f"My name is {person["name"]} and my age is {person["age"]}. My favorite color is {person["favorite_color"]}. To answer if I am happy, I will say {person["is_happy"]}.")
+```
+
+### Final Assignment
+
+``` 
+Navigate to exercise4.py
+
+Create an expense tracker app that will grab information from the end user for the name, cost and date of an expense (all of them can be strings). 
+
+This app should append the new expense to an expenses list and it should keep running until you tell it to quit. 
+
+Once you append, loop over all the expenses and show them to the user. Run the code.
+
+It should keep displaying all of your expenses and always shows the newest one that you just entered at the bottom.
+
+```

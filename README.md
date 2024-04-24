@@ -224,7 +224,8 @@ Is there a better way to describe Michael in code?
 
 What if we wrote:
 
-```python person = {
+```python 
+person = {
     "name": "michael",
     "age": 21,
     "favorite_color": "blue",
